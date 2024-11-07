@@ -1,0 +1,108 @@
+body {
+    background: url('img/fondoAzul.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+/* ESTILOS PARA EL MENU VERTICAL Y LATERAL  */
+.menu-vertical {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #101112;
+    z-index: 1000;
+    border: white 1px solid;
+}
+
+.menu-lateral {
+    width: 150px;
+    height: 100%;
+    background-color: #101112;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    top: 60px; /* Altura de la barra superior */
+    left: 0;
+    z-index: 1000;
+    border: white 1px solid;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral li {
+    margin-bottom: 10px;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    max-width: 70px;
+    position: fixed;
+    top: 4px;
+    left: 10px;
+    z-index: 1001;
+}
+
+.usuario-nombre {        
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 16px;
+    z-index: 1001;
+}
+
+
+/* ESTILO DE LOS BOTONES */
+.botones {
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.salir {
+    position: absolute;
+    width: 139px;
+    bottom: 74px;
+}
+.menu-lateral .botones:hover {
+    background-color: black;
+    border: solid 1px white;
+}
+
+.menu-lateral .botones:hover a {
+    color: white;
+}
+
+
+/* ESTILO Y COLOCACION DE LAS TARJETAS Y CONTENIDO */
+.contenido {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.tarjeta {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(29, 42, 49, 0.8);
+    color: #fff;
+    width: 90%;
+}
+
+h1 {
+    color: white;
+}
+
+
+
